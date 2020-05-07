@@ -22,8 +22,8 @@
       <ul class="navbar-nav navbar-right">
 
         <!-- Authenticantion Links -->
-        <li class="nav-item"><a href="#" class="nav-link">登录</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">注册</a></li>
+        <li class="nav-item"><a href="{{ route('login') }}" class="nav-link">登录</a></li>
+        <li class="nav-item"><a href="{{ route('register') }}" class="nav-link">注册</a></li>
 
       </ul>
 
