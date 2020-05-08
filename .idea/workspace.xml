@@ -119,6 +119,7 @@
       <path value="$PROJECT_DIR$/vendor/caouecs/laravel-lang" />
       <path value="$PROJECT_DIR$/vendor/mews/captcha" />
       <path value="$PROJECT_DIR$/vendor/intervention/image" />
+      <path value="$PROJECT_DIR$/vendor/summerblue/generator" />
     </include_path>
   </component>
   <component name="ProjectId" id="1bZJmffllYurpzDNAHKyNHjFrnM" />
@@ -166,7 +167,7 @@
       <workItem from="1588833843617" duration="14094000" />
       <workItem from="1588866886829" duration="200000" />
       <workItem from="1588867106569" duration="285000" />
-      <workItem from="1588909552609" duration="19090000" />
+      <workItem from="1588909552609" duration="19716000" />
     </task>
     <servers />
   </component>
