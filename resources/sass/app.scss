@@ -13,14 +13,10 @@
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
 
-html{
-  position: relative;
-  min-height: 100%;
-}
+
 body{
   font-family: "Helvetica", "Microsoft YaHei", Arial, sans-serif;
   font-size: 14px;
-  margin-bottom: 60px;
 }
 /* header */
 .navbar-static-top{
@@ -33,7 +29,17 @@ body{
   margin-top: 0;
 }
 
+
+
 /* footer */
+html{
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
 .footer{
   position: absolute;
   bottom: 0;
