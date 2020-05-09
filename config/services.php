@@ -24,6 +24,11 @@ return [
         'token' => env('POSTMARK_TOKEN'),
     ],
 
+    'baidu_translate' => [
+      'appid' => env('BAIDU_TRANSLATE_APPID'),
+      'key' => env('BAIDU_TRANSLATE_KEY')
+    ],
+
     'ses' => [
         'key' => env('AWS_ACCESS_KEY_ID'),
         'secret' => env('AWS_SECRET_ACCESS_KEY'),
