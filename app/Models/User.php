@@ -3,6 +3,7 @@
 namespace App\Models;
 
 use App\Models\Traits\ActiveUserHelper;
+use App\Models\Traits\LastActivedAtHelper;
 use Illuminate\Contracts\Auth\MustVerifyEmail as MustVerifyEmailContract;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
@@ -16,6 +17,9 @@ class User extends Authenticatable implements MustVerifyEmailContract
 
     // 活跃用户统计
     use ActiveUserHelper;
+
+    // 最后活跃时间
+    use LastActivedAtHelper;
 
     use Notifiable{
         notify as protected laravelNotify;
