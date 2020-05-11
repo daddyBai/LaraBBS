@@ -3,13 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="09563910-c81d-4377-b141-93f27e0e6219" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CategoriesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CategoriesController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TopicsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/TopicsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Model.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Model.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Topic.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Topic.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/topics/_sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/topics/_sidebar.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -192,7 +185,7 @@
       <workItem from="1588867106569" duration="285000" />
       <workItem from="1588909552609" duration="26090000" />
       <workItem from="1589000827681" duration="21559000" />
-      <workItem from="1589086943705" duration="23954000" />
+      <workItem from="1589086943705" duration="24605000" />
     </task>
     <servers />
   </component>
