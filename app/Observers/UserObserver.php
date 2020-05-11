@@ -18,4 +18,11 @@ class UserObserver
     {
         //
     }
+
+    public function saving(User $user)
+    {
+        if(empty($user->avatar)){
+            $user->avatar =  env('APP_URL','').'/uploads/avatars/default.png';
+        }
+    }
 }
