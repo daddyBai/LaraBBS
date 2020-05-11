@@ -37,5 +37,12 @@ class UsersTableSeeder extends Seeder
         $user->email = 'sylar@qq.com';
         $user->avatar = 'http://img0.imgtn.bdimg.com/it/u=266184640,2050584728&fm=26&gp=0.jpg';
         $user->save();
+
+        // 1 号用户设为站长
+        $user->assignRole('Founder');
+
+        // 2 号用户设为管理员
+        $user = User::find(2);
+        $user->assignRole('Maintainer');
     }
 }
