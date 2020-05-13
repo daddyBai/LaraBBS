@@ -113,6 +113,7 @@
       <path value="$PROJECT_DIR$/vendor/laravel/horizon" />
       <path value="$PROJECT_DIR$/vendor/spatie/laravel-permission" />
       <path value="$PROJECT_DIR$/vendor/viacreative/sudo-su" />
+      <path value="$PROJECT_DIR$/vendor/overtrue/easy-sms" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="7.2" />
