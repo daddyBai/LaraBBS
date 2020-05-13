@@ -29,6 +29,9 @@ Route::prefix('v1')
             Route::post('verificationCodes', 'VerificationCodesController@store')
                 ->name('verificationCodes.store');
 
+            # 图片验证码
+            Route::post('captchas', 'CaptchasController@store')->name('captchas.store');
+
             # 用户注册
             Route::post('users','UsersController@store')->name('users.store');
         });
