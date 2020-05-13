@@ -3,6 +3,7 @@
 namespace App\Providers;
 
 use Illuminate\Support\ServiceProvider;
+use Illuminate\Http\Resources\Json\ResourceCollection;
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -32,5 +33,8 @@ class AppServiceProvider extends ServiceProvider
         if(app()->isLocal()){
             $this->app->register(\VIACreative\SudoSu\ServiceProvider::class);
         }
+
+        # 去掉 data 包裹层
+        ResourceCollection::withoutWrapping();
     }
 }
