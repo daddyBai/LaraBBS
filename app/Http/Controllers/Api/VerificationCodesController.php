@@ -65,6 +65,8 @@ class VerificationCodesController extends Controller
 # code = 0710y1SI0LkiDd2AlCSI0AgQRI00y1SG
 # code = 071aeUfi2VzOPE0UYRei2ml8gi2aeUf1
 # access_token = 33_0fVe0NXLKcBaexh0c0xU_u98SkQwudKiWdGx8rlaKvOUJkF92N2HVKF_K9PynRTKoiANk6uP-rcZFw5T6PlzKg
+# access_token = 33_8Pr1Uy2ufxR7tg0KkFZv-DiDWPENaLQ9AZOw1Zlq8B3wFXffi-zeduYE-VhDQKVqkHY-c917y1VKkozq2lrL1w
+# openid = ol53Lwo552-gzCUvE1dUI5x6hyUI
 # openid = ol53Lwo552-gzCUvE1dUI5x6hyUI
 
 # 获取个人信息 api  https://api.weixin.qq.com/sns/userinfo?access_token=
