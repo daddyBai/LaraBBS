@@ -24,6 +24,12 @@ class TopicRequest extends FormRequest
     public function rules()
     {
         switch ($this->method()){
+            case 'GET':
+                return [
+                    'category_id' => 'int|exists:categories,id',
+                    'order' => ''
+                ];
+                break;
             case 'POST':
                 return [
                     'title' => 'required|string',
