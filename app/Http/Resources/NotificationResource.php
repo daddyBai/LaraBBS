@@ -22,4 +22,6 @@ class NotificationResource extends JsonResource
             'created_at' => (string) $this->created_at,
         ];
     }
+
+
 }
