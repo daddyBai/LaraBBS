@@ -73,6 +73,8 @@ Route::prefix('v1')
                 Route::delete('topics/{topic}/replies/{reply}', 'RepliesController@destroy')->name('topics.replies.destroy');
                 # 通知列表
                 Route::get('notifications', 'NotificationsController@index')->name('notifications.index');
+                # 通知统计
+                Route::get('notifications/stats', 'NotificationsController@stats')->name('notifications.stats');
             });
         });
 
